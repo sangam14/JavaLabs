@@ -30,7 +30,7 @@ search:
   button: false
 
 aux_links:
-  "GopherLabs on GitHub":
+  "JavaLabs on GitHub":
     - "//github.com/sangam14/JavaLabs/"
     # Footer content 
 # appears at the bottom of every page's main content
