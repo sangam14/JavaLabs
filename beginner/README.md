@@ -1,15 +1,12 @@
 ---
 layout: default
 title: Java Beginner Track
-nav_order: 1
+nav_order: 2
 has_children: true
 permalink: 
 ---
 
-# Table Of Content 
-
-
-# Java Beginner Track
+# Table of Content
 
 1. Introduction to Java technology
 1. What is Java technology?
