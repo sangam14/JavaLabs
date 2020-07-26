@@ -1,3 +1,14 @@
+---
+layout: default
+title: Java Beginner Track
+nav_order: 1
+has_children: true
+permalink: 
+---
+
+# Table Of Content 
+
+
 # Java Beginner Track
 
 1. Introduction to Java technology
