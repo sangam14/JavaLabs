@@ -1,9 +1,7 @@
 # Welcome to JavaLabs
 
-![](https://raw.githubusercontent.com/sangam14/JavaLabs/master/img/javalabs.png)
+![Welcome to JavaLabs](https://raw.githubusercontent.com/sangam14/JavaLabs/master/img/javalabs.png)
 
+## Java Developer RoadMap 2020
 
-# Java Developer RoadMap 2020
-
-
-![](https://raw.githubusercontent.com/sangam14/JavaLabs/master/img/java-developer-roadmap.png)
+![Java Developer RoadMap 2020](https://raw.githubusercontent.com/sangam14/JavaLabs/master/img/java-developer-roadmap.png)
