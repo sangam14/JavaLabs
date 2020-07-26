@@ -2,7 +2,7 @@
 layout: default
 title: Introduction to Java technology
 parent: Java Beginner Track
-nav_order: 1
+nav_order: 3
 ---
 
 # history of JAVA :
