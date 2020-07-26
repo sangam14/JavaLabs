@@ -36,21 +36,20 @@ permalink:
       * if-then
       * If-else
       * if-else-if
+      * switch
 1. Introduction to the data structure
    * Arrays
    * Matrix
-1. Hascode and equals
+1. Hashcode and equals
 1. Repeating structure
    * while
    * for
    * do-while
    * for
-   * switch
    * break
    * continue
 1. OO Programming
    * Introduction to Object Orientation
-      * OO vs structured and procedural programming
    * Composition concept
    * Types of Relationship
       * One-to-One relationship
@@ -73,7 +72,7 @@ permalink:
       * Access modifiers
       * Getters and Setters
       * Anemic models vs rich models
-   * Inheritance in Java
+   * Inheritance
       * Reserved word &quot;super&quot;
       * Overriding and hiding Methods
       * Overloading Methods and Constructors
@@ -121,44 +120,13 @@ permalink:
    * Error stack
    * Hierarchy
    * Checked exceptions
-   * Runtime exceptions
+   * Unchecked exceptions
    * Catching Exceptions
    * Throws and Throw
    * Custom exception
    * Finally
-   * NullPointerException
    * Best Practices
 1. Reflection
 1. Annotation
 1. Libraries, Packages and Modules
-1. Introduction to functional programming in Java
-   * Lambdas
-      * Introduction
-      * Functional Interfaces
-      * Using functional interfaces
-   * Functional Foeach
-   * Predicate
-   * Consumer
-   * Occupation
-   * Predicate
-   * Provider
-   * Unary
-   * Binary
-1. Stream API
-   * Introduction
-   * List / Iterator / Flow
-   * Type of Operations
-   * Creating streams
-   * Map
-   * Filter
-   * Reduce
-   * Match
-   * Min and Max
-   * Other methods
-   * Parallel Streams
-1. Introduction to parallelism
-   * Threads
-   * Runnable, Callable and Executor Service
-   * Asynchronism with CompletableFuture
-   * Fork/join
 1. Documenting with JavaDoc
