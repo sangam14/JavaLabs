@@ -1,3 +1,10 @@
+---
+layout: default
+title: Introduction to Java technology
+parent: Java Beginner Track
+nav_order: 1
+---
+
 # History of JAVA :
 
 JAVA is a distributed technology developed by James Gosling, Patric Naugton , etc., at Sun
