@@ -10,7 +10,7 @@ nav_order: 4
 * A **_.class_** file does not contain code that is native to your processor; it instead contains bytecodes.
 * This **_.class_** file is capable to run on any machine which have Virtual Machine (Java VM) has installed.
 
-![dig1M](https://raw.githubusercontent.com/sangam14/JavaLabs/master/img/dig1.png)
+![dig1](https://raw.githubusercontent.com/sangam14/JavaLabs/master/img/dig1.png)
 
 
 
@@ -26,3 +26,4 @@ nav_order: 4
 ## What is JVM (Java Virtual Machine) ?
 * Java Virtual machine(JVM) is a very important part of JRE (Java Run Time Environment). Whatever Java program you run using JRE or JDK goes into JVM and JVM is responsible for executing the java program line by line hence it is also known as interpreter. 
   
+![dig2](https://raw.githubusercontent.com/sangam14/JavaLabs/master/img/dig2.png)
