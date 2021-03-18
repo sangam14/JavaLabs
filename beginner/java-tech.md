@@ -1,10 +1,10 @@
 ---
 layout: default
-title: What is Java technology ? 
+title: How java works ? 
 parent: Java Beginner Track
-nav_order: 4
+nav_order: 5
 ---
-## What is java technology ?
+## How java works ?
 * In the Java programming language, all source code is first written in plain text files ending with the **_.java_** extension.
 * Those source files are then compiled into **_.class_** files by the javac compiler.
 * A **_.class_** file does not contain code that is native to your processor; it instead contains bytecodes.
