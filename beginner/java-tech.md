@@ -26,4 +26,4 @@ nav_order: 5
 ## What is JVM (Java Virtual Machine) ?
 * Java Virtual machine(JVM) is a very important part of JRE (Java Run Time Environment). Whatever Java program you run using JRE or JDK goes into JVM and JVM is responsible for executing the java program line by line hence it is also known as interpreter. 
   
-![dig2](https://raw.githubusercontent.com/sangam14/JavaLabs/master/img/dig2.png)
+![dig2](https://raw.githubusercontent.com/sangam14/JavaLabs/master/img/digram2.png)
