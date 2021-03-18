@@ -10,7 +10,7 @@ nav_order: 4
 * A **_.class_** file does not contain code that is native to your processor; it instead contains bytecodes.
 * This **_.class_** file is capable to run on any machine which have Virtual Machine (Java VM) has installed.
 
-![dig1M](dig1M.j)
+![dig1M](https://raw.githubusercontent.com/sangam14/JavaLabs/master/img/Dig1M.png)
 
 
 
