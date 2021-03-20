@@ -11,4 +11,4 @@
 * It is mixture of low level and high level language.
 * e.g. C
 * C is called middle-level language because it actually binds the gap between a machine level language and high-level languages. A user can use c language to do System Programming (for writing operating system) as well as Application Programming (for generating menu driven customer billing system ).
-![dig4]()
+![dig4](https://raw.githubusercontent.com/sangam14/JavaLabs/master/img/Dig4.png)
