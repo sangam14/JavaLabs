@@ -1,7 +1,7 @@
 ## Steps to execute a java Program
-step 1) Create a source code 
-step 2) Compile the source code 
-step 3) Execute the byte code
+step 1) Create a source code <br>
+step 2) Compile the source code <br>
+step 3) Execute the byte code <br>
 ### Step 1) Create a source code 
 * To create a source code we need take the help of an editor.
 * An editor is a software which help to write a java program.
