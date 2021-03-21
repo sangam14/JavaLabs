@@ -26,7 +26,7 @@ e.g.
     * integer - 10,1,100,15
     * float - 10.1,30.4,33.2 <br>
 * __ii) Characters__ 
-    * 'a','b','C'
+    * 'a','b','c','A','B','C'
     * 'a' != 'A' 
     * 97 != 65 (ASCII value)
     * ASCII value - byte code <br>
