@@ -21,19 +21,19 @@ e.g.
 }
 ```
 ### 3) Literals
-* Literals are the types of values used in java program.
-#### i) Numbers 
-* integer - 10,1,100,15
-* float - 10.1,30.4,33.2
-#### ii) Characters  
-* 'a','b','C'
-* 'a' != 'A' 
-* 97 != 65 (ASCII value)
-* ASCII value - byte code
-#### iii) String
-* "Hello"
-#### iv) Boolean 
-* true/false
+* Literals are the types of values used in java program.<br>
+* __i) Numbers__ 
+    * integer - 10,1,100,15
+    * float - 10.1,30.4,33.2 <br>
+* __ii) Characters__ 
+    * 'a','b','C'
+    * 'a' != 'A' 
+    * 97 != 65 (ASCII value)
+    * ASCII value - byte code <br>
+* __iii) String__
+    * "Hello" <br>
+* __iv) Boolean__ 
+    * true/false <br>
 
 ## Note
 * Java is casesensitive.
