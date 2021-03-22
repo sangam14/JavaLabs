@@ -22,7 +22,7 @@ step 3) Execute the byte code <br>
 * We can execute the java byte code with the help of command promt.
 
 ## Structure of java program
-![Dig5]()
+![Dig5](https://raw.githubusercontent.com/sangam14/JavaLabs/master/img/Dig5.png)
 
 ```
 class FirstProgram
