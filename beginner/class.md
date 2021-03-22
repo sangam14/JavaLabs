@@ -8,15 +8,15 @@
 ### conventions :-
 * Convensions is not mandatory but we need to follow this conventions based on industrial standards.
 1) The first letter of the class name should be in terms of upper case.<br>
-  &nbsp e.g. Summation <br>
+   &nbsp; e.g. Summation <br>
 2) We can not give the space between the class name.<br>
-  &nbsp e.g. ProgramOne <br>
+   &nbsp; e.g. ProgramOne <br>
 3) We can use two special type characters.<br>
-  &nbsp $ and  _ <br>
+   &nbsp; $ and  _ <br>
 4) We can not start class name with numeric value. If we want to use numeric value we can provide after defining class name.<br>
-  &nbsp e.g. Program1 <br>
+   &nbsp; e.g. Program1 <br>
 5) We can not use keyword as a class name. It will show compile time error.<br>
-  &nbsp e.g. public, static <br> 
+   &nbsp; e.g. public, static <br> 
 
    
 
