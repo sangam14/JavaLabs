@@ -5,11 +5,11 @@
 * The main() is the starting point for JVM to start execution of a Java program. Without the main() method, JVM will not execute the program.
 
 ## class naming conventions 
-1) The first letter of the class name should be in terms of upper case.<br>
-* e.g. Summation <br>
 ### conventions :-
 * Convensions is not mandatory but we need to follow this conventions based on industrial standards.
-2) We can not give the space between the class name.<br>
+1) The first letter of the class name should be in terms of upper case.
+* e.g. Summation 
+2) We can not give the space between the class name.
 * e.g. ProgramOne
 3) We can use two special type characters.
 * $ and  _
