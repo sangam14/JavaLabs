@@ -36,7 +36,8 @@
   ```
 * variables are classified into two types :
   1) Global Variables
-  2) Local Variables
+  2) Local Variables <br>
+   
 1) Global Variables 
 * The variables which are declared inside class block such a variables are called as global variables.
 * All global variables will having it's default value.
