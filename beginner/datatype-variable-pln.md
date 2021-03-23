@@ -38,11 +38,11 @@
   1) Global Variables
   2) Local Variables <br>
    
-1) Global Variables 
+### 1) Global Variables 
 * The variables which are declared inside class block such a variables are called as global variables.
 * All global variables will having it's default value.
 
-2) Local Variables
+### 2) Local Variables
 * The variables which are declared inside the method block such a variables are called as local variables.
 * All local variables will not having it's default value. 
 
