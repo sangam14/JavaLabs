@@ -9,8 +9,8 @@
 
 | Type      | Data types | Size   |
 |-----------|:----------:|--------|
-|           |    byte    | 1 byte |
-| Integer   |    short   | 2 byte |
+|  Integer  |    byte    | 1 byte |
+|           |    short   | 2 byte |
 |           |     int    | 4 byte |
 |           |    long    | 8 byte |
 |           |            |        |
@@ -31,7 +31,9 @@
 * Variables is the name given to the block of memory to stored the value.
 * **Syntax** <br>
   &nbsp; datatype variable_name = value; <br>
-  &nbsp; e.g. int num = 10;   
+  ```
+   e.g. int num = 10;   
+  ```
 * variables are classified into two types :
   1) Global Variables
   2) Local Variables
