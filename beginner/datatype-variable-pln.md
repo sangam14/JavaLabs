@@ -45,4 +45,4 @@
    * The variables which are declared inside the method block such a variables are called as local variables.
    * All local variables will not having it's default value. 
 
-[Dig6]()
+![Dig6](https://raw.githubusercontent.com/sangam14/JavaLabs/master/img/Dig6.png)
