@@ -4,8 +4,8 @@
   1) Primitive Datatype
   2) Non-primitive Datatype   
 ### 1) Primitive Datatype
-      * Primitive data type are the type of primitive values used in java program.
-      * Primitive data type are classified into
+    * Primitive data type are the type of primitive values used in java program.
+    * Primitive data type are classified into
 
 | Type      | Data types | Size   |
 |-----------|:----------:|--------|
@@ -24,8 +24,8 @@
 |           |            |        |
 
 ### 1) Non-primitive Datatype
-     * Non-primitive data type are the type of non-primitive values used in java program.
-     * e.g. String
+    * Non-primitive data type are the type of non-primitive values used in java program.
+    * e.g. String
 
 ## Variables
 * Variables is the name given to the block of memory to stored the value.
