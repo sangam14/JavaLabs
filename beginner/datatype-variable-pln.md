@@ -23,7 +23,7 @@
 |           |    false   | 1 bit  |
 |           |            |        |
 
-### 1) Non-primitive Datatype
+### 2) Non-primitive Datatype
     * Non-primitive data type are the type of non-primitive values used in java program.
     * e.g. String
 
