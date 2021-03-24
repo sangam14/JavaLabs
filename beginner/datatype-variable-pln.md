@@ -100,4 +100,4 @@ class P1
 ```
 * Ans = 10,20,30
 
-## Prinit Statements in Java
+## Priniting Statements in Java
