@@ -47,3 +47,42 @@
 * All local variables will not having it's default value. 
 
 ![Dig6](https://raw.githubusercontent.com/sangam14/JavaLabs/master/img/Dig6.png)
+
+```
+class P1
+{
+  public static void main(String[]args)
+  {
+    int var = 10;
+    System.out.println(var);
+  }
+}
+```
+* Ans = 10
+  
+```
+class P1
+{
+  public static void main(String[]args)
+  {
+    int var;
+    System.out.println(var);
+  }
+}
+```
+* Ans = (Compile Time Error) variable not initillized
+
+```
+class P1
+{
+  public static void main(String[]args)
+  {
+    int var;
+    var = 10;
+    System.out.println(var);
+  }
+}
+```
+* Ans = 10
+
+
