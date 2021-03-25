@@ -79,7 +79,7 @@ class FloatToDouble
 
 
 
-### i] Narrowing
+### ii] Narrowing
 * The process of converting larger datatype into  smaller data type is called as narrowing.
   
 
