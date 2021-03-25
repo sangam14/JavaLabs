@@ -100,4 +100,10 @@ class P1
 ```
 * Ans = 10,20,30
 
-## Priniting Statements in Java
+## Priniting Statements in java
+|    | System.out.println()                                                  | System.out.print()                                                                 |
+|----|-----------------------------------------------------------------------|------------------------------------------------------------------------------------|
+| 1) | Here it will print the statements and curser moves  to the next line. | Here it will print the statement and curser moves  to the next immediate word.     |
+| 2  | We can use println() without passing any value.                       | We can not use print() without passing any value. It will show compile time error. |
+
+
