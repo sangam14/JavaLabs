@@ -23,7 +23,7 @@
 |           |    false   | 1 bit  |
 |           |            |        |
 
-* __Note__
+* __Note__ <br>
   All are keywords.
 ### 2) Non-primitive Datatype
 * Non-primitive data type are the type of non-primitive values used in java program.
@@ -103,6 +103,7 @@ class P1
 * Ans = 10,20,30
 
 ## Priniting Statements in java
+
 |    | System.out.println()                                                  | System.out.print()                                                                 |
 |----|-----------------------------------------------------------------------|------------------------------------------------------------------------------------|
 | 1) | Here it will print the statements and curser moves  to the next line. | Here it will print the statement and curser moves  to the next immediate word.     |
