@@ -23,6 +23,8 @@
 |           |    false   | 1 bit  |
 |           |            |        |
 
+* __Note__
+  All are keywords.
 ### 2) Non-primitive Datatype
 * Non-primitive data type are the type of non-primitive values used in java program.
 * e.g. String
