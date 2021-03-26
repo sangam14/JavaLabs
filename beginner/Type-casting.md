@@ -1,5 +1,5 @@
 ## Type Casting 
-![Dig7]()
+![Dig7](https://raw.githubusercontent.com/sangam14/JavaLabs/master/img/Dig7.png)
 * The process of converting one datatype into another datatype is called as type casting.
 * Type casting is classified into two types :<br>
   1)Primitive Type Casting 
