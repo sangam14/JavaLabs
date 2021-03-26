@@ -1,4 +1,5 @@
 ## Type Casting 
+![Dig7]()
 * The process of converting one datatype into another datatype is called as type casting.
 * Type casting is classified into two types :<br>
   1)Primitive Type Casting 
