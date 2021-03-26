@@ -123,6 +123,19 @@ class P3
 ```
 * Ans = 97, a
 
+```
+class P4
+{
+    public static void main(String[]args)
+    {
+        float n = 10.15f;
+        int a = (int) n; 
+        System.out.println(n); 
+        System.out.println(a);
+    }
+}
+```
+* Ans = 10.15, 10
 
 
 
