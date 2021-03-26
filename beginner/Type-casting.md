@@ -103,6 +103,27 @@ class P3
 * In order to perform narrowing we need to take the help of cast operator.
 * In narrowing there will loss of the data.
 ### CAST Operator
+* Cast operator is an unary operator.
+* It will take only one value/operand at a time.
+* Cast operator will help us to convert larger datatype into smaller datatype.
+* __Syntax__ <br>
+  &nbsp; datatype variable_name = (datatype) variable_name;
+
+```
+class P3
+{
+    public static void main(String[]args)
+    {
+        int n = 97;
+        char ch = (char) n; 
+        System.out.println(n); 
+        System.out.println(ch);
+    }
+}
+```
+
+
+
 
 
 
