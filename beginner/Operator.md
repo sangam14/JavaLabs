@@ -1,0 +1,69 @@
+## Operators In Java
+* Operators are classified into three types :
+1) Unary Operator
+2) Binary Operator
+3) Ternary Operator 
+
+1) Unary Operator
+* The operator which takes one value/operand at a time is called as unary operator.
+* e.g. Increment Operator <br>
+  &nbsp; Decrement Operator <br>
+  &nbsp; Cast Operator
+
+2) Binary Operator
+* * The operator which takes two values/operands at a time is called as binary operator.
+* e.g. Increment Operator <br>
+  &nbsp; Logical Operator <br>
+  &nbsp; Arithmatic Operator <br>
+  &nbsp; Relational Operator 
+
+3) Ternary Operator
+* The operator which takes three values/operands at a time is called as ternary operator.
+* e.g. Conditional Operator 
+
+1)  Unary Operator
+   i) Increment Operator
+   * Increment operator is classified into two types a) Post Increment  b) Pre Increment <br>
+   a)Post Increment
+   * The operator which is suffix to it's variable is called as post increment operator.
+   * __Syntax__ <br>
+   &nbsp; variable_name ++ 
+
+```
+class PostInc
+{
+    public static void main(String[]args)
+    {
+        int a = 10;
+        System.out.println(a);
+        System.out.println(a++);
+        System.out.println(a);
+    }
+}
+```
+* Ans = 10, 10, 11
+* __Steps to perform post increment operator__
+i] Use the value present inside the variable.
+ii] Increment the value by '1' and update.
+
+```
+class PostInc
+{
+    public static void main(String[]args)
+    {
+        int a = 10;
+        int b = a++;
+        int c = b++;
+        System.out.println(a++);
+        System.out.println(b++);
+        System.out.println(c++);
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+    }
+}
+```
+    
+
+   
+
