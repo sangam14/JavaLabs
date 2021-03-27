@@ -24,7 +24,7 @@
 1)  Unary Operator
    i) Increment Operator
    * Increment operator is classified into two types a) Post Increment  b) Pre Increment <br>
-   a)Post Increment
+   a)Post Increment Operator
    * The operator which is suffix to it's variable is called as post increment operator.
    * __Syntax__ <br>
    &nbsp; variable_name ++ 
@@ -45,6 +45,47 @@ class PostInc
 * __Steps to perform post increment operator__
 i] Use the value present inside the variable.
 ii] Increment the value by '1' and update.
+
+```
+class PostInc
+{
+    public static void main(String[]args)
+    {
+        int a = 10;
+        int b = a++;
+        int c = b++;
+        System.out.println(a++);
+        System.out.println(b++);
+        System.out.println(c++);
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+    }
+}
+```
+
+
+a)Pre Increment Operator
+   * The operator which is prefix to it's variable is called as pre increment operator.
+   * __Syntax__ <br>
+   &nbsp; ++variable_name 
+
+```
+class PostInc
+{
+    public static void main(String[]args)
+    {
+        int a = 10;
+        System.out.println(a);
+        System.out.println(++a);
+        System.out.println(a);
+    }
+}
+```
+* Ans = 10, 11, 11
+* __Steps to perform pre increment operator__
+i] Increment the value by '1' and update.
+ii] Use the value present inside the variable.
 
 ```
 class PostInc
