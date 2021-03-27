@@ -71,7 +71,7 @@ a)Pre Increment Operator
    &nbsp; ++variable_name 
 
 ```
-class PostInc
+class PreInc
 {
     public static void main(String[]args)
     {
@@ -88,23 +88,24 @@ i] Increment the value by '1' and update.
 ii] Use the value present inside the variable.
 
 ```
-class PostInc
+class PreInc
 {
     public static void main(String[]args)
     {
         int a = 10;
-        int b = a++;
-        int c = b++;
-        System.out.println(a++);
-        System.out.println(b++);
-        System.out.println(c++);
+        int b = 10;
+        int c = 10;
+        System.out.println(++a + b++ + c++);
+        System.out.println(c + a++ + b++ + c++);
+        System.out.println(a + b + c++);
+        System.out.println(++a + c + b++)
         System.out.println(a);
         System.out.println(b);
         System.out.println(c);
     }
 }
 ```
-    
+* Ans = 31, 44, 36, 38, 13, 13, 13
 
    
 
