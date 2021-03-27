@@ -11,7 +11,7 @@
   &nbsp; Cast Operator
 
 ### 2) Binary Operator
-* * The operator which takes two values/operands at a time is called as binary operator.
+* The operator which takes two values/operands at a time is called as binary operator.
 * e.g. Increment Operator <br>
   &nbsp; Logical Operator <br>
   &nbsp; Arithmatic Operator <br>
