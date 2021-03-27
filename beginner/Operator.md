@@ -20,7 +20,7 @@
 ### 3) Ternary Operator
 * The operator which takes three values/operands at a time is called as ternary operator.
 * e.g. Conditional Operator 
-
+<br>
 ### 1)  Unary Operator
 ### i) Increment Operator
    * Increment operator is classified into two types a) Post Increment  b) Pre Increment <br>
@@ -42,8 +42,8 @@ class PostInc
 }
 ```
 * Ans = 10, 10, 11
-* __Steps to perform post increment operator__
-i] Use the value present inside the variable.
+* __Steps to perform post increment operator__ <br>
+i] Use the value present inside the variable.<br>
 ii] Increment the value by '1' and update.
 
 ```
@@ -83,8 +83,8 @@ class PreInc
 }
 ```
 * Ans = 10, 11, 11
-* __Steps to perform pre increment operator__
-i] Increment the value by '1' and update.
+* __Steps to perform pre increment operator__ <br>
+i] Increment the value by '1' and update. <br>
 ii] Use the value present inside the variable.
 
 ```
