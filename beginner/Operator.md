@@ -19,8 +19,7 @@
 
 ### 3) Ternary Operator
 * The operator which takes three values/operands at a time is called as ternary operator.
-* e.g. Conditional Operator 
-<br>
+* e.g. Conditional Operator <br><br>
 ### 1)  Unary Operator
 ### i) Increment Operator
    * Increment operator is classified into two types a) Post Increment  b) Pre Increment <br>
@@ -63,7 +62,7 @@ class PostInc
     }
 }
 ```
-
+* Ans = 11, 11, 10, 12, 12, 11
 
 ### b)Pre Increment Operator
    * The operator which is prefix to it's variable is called as pre increment operator.
