@@ -255,16 +255,16 @@ class P1
 ### a) AND Operator (&&)
 
 | Statement1 | Statement2 | Output |
-|------------|------------|--------|
+|:----------:|:----------:|:------:|
 |    TRUE    |    TRUE    |  TRUE  |
 |    TRUE    |    FALSE   |  FALSE |
 |    FALSE   |    TRUE    |  FALSE |
 |    FALSE   |    FALSE   |  FALSE |
 
-### b) OP Operator (||)
+### b) OR Operator (||)
 
 | Statement1 | Statement2 | Output |
-|------------|------------|--------|
+|:----------:|:----------:|:------:|
 |    TRUE    |    TRUE    |  TRUE  |
 |    TRUE    |    FALSE   |  TRUE  |
 |    FALSE   |    TRUE    |  TRUE  |
