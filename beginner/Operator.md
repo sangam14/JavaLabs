@@ -272,7 +272,16 @@ class P1
 
 ### c) NOT Operator (!)
 
-
-
+```
+class NotOperator
+{
+    public static void main(String[]args)
+    {
+        System.out.println(!true);
+    }
+}
+```
+* Ans = false
+* NOT is an unary operator but it comes under logical operator.
 
 
