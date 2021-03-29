@@ -189,7 +189,45 @@ class PreDec
     }
 }
 ```
-* Ans = 29, 36, 24, 8, 8, 7 <br>
+* Ans = 29, 36, 24, 8, 8, 7 <br><br>
+
+### 1)  Binary Operator
+### i) Arithmatic Operator
+* It is an binary operator.
+* It will takes two values/operand at a time.
+
+```
+class P1
+{
+    public static void main(String[] args)
+    {
+        int a = 10;
+        int c = 10;
+        System.out.println(a + c);
+        System.out.println(a - c);
+        System.out.println(a * c);
+        System.out.println(a / c);
+        System.out.println(a % c);
+    }
+}
+```
+* Ans = 20, 0, 100, 1, 0
+
+* __For Modulos (%)__
+* m = 6, n = 7 <br> <br>
+* if m < n <br>
+  m % n  = m <br>
+  e.g. 6 % 7 = 6  <br> <br>
+
+  * if m = n <br>
+  m % n  = m <br>
+  e.g. 7 % 7 = 0  <br> <br>
+
+* if m > n <br>
+  m % n  = reminder <br>
+  e.g. 8 % 7 = 1  <br> <br>
+
+
 
 
 
