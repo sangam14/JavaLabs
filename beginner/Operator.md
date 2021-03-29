@@ -107,4 +107,89 @@ class PreInc
 * Ans = 31, 44, 36, 38, 13, 13, 13
 
    
+### ii) Decrement Operator
+   * Increment operator is classified into two types a) Post Decrement  b) Pre Decrement <br>
+### a)Post Decrement Operator
+   * The operator which is suffix to it's variable is called as post increment operator.
+   * __Syntax__ <br>
+   &nbsp; variable_name ++ 
+
+```
+class PostDec
+{
+    public static void main(String[]args)
+    {
+        int a = 10;
+        System.out.println(a);
+        System.out.println(a--);
+        System.out.println(a);
+    }
+}
+```
+* Ans = 10, 10, 9
+* __Steps to perform post increment operator__ <br>
+i] Use the value present inside the variable.<br>
+ii] Decrement the value by '1' and update.
+
+```
+class PostDec
+{
+    public static void main(String[]args)
+    {
+        int a = 10;
+        int b = a--;
+        int c = b--;
+        System.out.println(a--);
+        System.out.println(b--);
+        System.out.println(c--);
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+    }
+}
+```
+* Ans = 9, 9, 10, 8, 8, 9
+
+### b)Pre Decrement Operator
+   * The operator which is prefix to it's variable is called as pre increment operator.
+   * __Syntax__ <br>
+   &nbsp; --variable_name 
+
+```
+class PreDec
+{
+    public static void main(String[]args)
+    {
+        int a = 10;
+        System.out.println(a);
+        System.out.println(--a);
+        System.out.println(a);
+    }
+}
+```
+* Ans = 10, 9, 9
+* __Steps to perform pre decrement operator__ <br>
+i] Increment the value by '1' and update. <br>
+ii] Use the value present inside the variable.
+
+```
+class PreDec
+{
+    public static void main(String[]args)
+    {
+        int a = 10;
+        int b = 10;
+        int c = 10;
+        System.out.println(--a + b-- + c--);
+        System.out.println(c + a-- + b-- + c--);
+        System.out.println(a + b + c--);
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+    }
+}
+```
+* Ans = 29, 36, 24, 8, 8, 7 <br>
+
+
 
