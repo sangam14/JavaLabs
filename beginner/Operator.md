@@ -219,7 +219,7 @@ class P1
   m % n  = m <br>
   e.g. 6 % 7 = 6  <br> <br>
 
-  * if m = n <br>
+* if m = n <br>
   m % n  = m <br>
   e.g. 7 % 7 = 0  <br> <br>
 
@@ -253,6 +253,7 @@ class P1
 ### iii) Logical Operator
 * It is an binary operator.
 ### a) AND Operator (&&)
+
 | Statement1 | Statement2 | Output |
 |------------|------------|--------|
 |    TRUE    |    TRUE    |  TRUE  |
@@ -261,6 +262,7 @@ class P1
 |    FALSE   |    FALSE   |  FALSE |
 
 ### b) OP Operator (||)
+
 | Statement1 | Statement2 | Output |
 |------------|------------|--------|
 |    TRUE    |    TRUE    |  TRUE  |
