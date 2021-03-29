@@ -227,6 +227,29 @@ class P1
   m % n  = reminder <br>
   e.g. 8 % 7 = 1  <br> <br>
 
+### i) Relational Operator
+* It is an binary operator.
+* The return type of relational operator is in terms of boolean condition.
+* (true/false)
+
+```
+class P1
+{
+    public static void main(String[] args)
+    {
+        int a = 10;
+        int b = 20;
+        System.out.println(a == b);
+        System.out.println(a != b);
+        System.out.println(a < b);
+        System.out.println(a > b);
+        System.out.println(a <= b);
+        System.out.println(a >= b);
+    }
+}
+```
+* Ans = false, true, true, false, true, false
+
 
 
 
