@@ -227,7 +227,7 @@ class P1
   m % n  = reminder <br>
   e.g. 8 % 7 = 1  <br> <br>
 
-### i) Relational Operator
+### ii) Relational Operator
 * It is an binary operator.
 * The return type of relational operator is in terms of boolean condition.
 * (true/false)
@@ -249,6 +249,26 @@ class P1
 }
 ```
 * Ans = false, true, true, false, true, false
+
+### iii) Logical Operator
+* It is an binary operator.
+### a) AND Operator (&&)
+| Statement1 | Statement2 | Output |
+|------------|------------|--------|
+|    TRUE    |    TRUE    |  TRUE  |
+|    TRUE    |    FALSE   |  FALSE |
+|    FALSE   |    TRUE    |  FALSE |
+|    FALSE   |    FALSE   |  FALSE |
+
+### b) OP Operator (||)
+| Statement1 | Statement2 | Output |
+|------------|------------|--------|
+|    TRUE    |    TRUE    |  TRUE  |
+|    TRUE    |    FALSE   |  TRUE  |
+|    FALSE   |    TRUE    |  TRUE  |
+|    FALSE   |    FALSE   |  FALSE |
+
+### c) NOT Operator (!)
 
 
 
