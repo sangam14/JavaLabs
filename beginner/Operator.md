@@ -336,5 +336,21 @@ class TerOp
 }
 ```
 * Ans = 20
-
+* __Que.__ Write a program to find the maximum of four numbers using conditional operator.
+  
+```
+class TerOp
+{
+    public static void main(String[]args)
+    {
+        int a = 70;
+        int b = 90;
+        int c = 30;
+        int d = 40;
+        int res = a > b && a > c && a > d ? a : b > c && b > d ? b : c > d ? c : d;
+        System.out.println(res);
+    }
+}
+```
+* Ans = 90
 
