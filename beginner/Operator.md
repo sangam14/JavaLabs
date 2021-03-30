@@ -191,7 +191,7 @@ class PreDec
 ```
 * Ans = 29, 36, 24, 8, 8, 7 <br><br>
 
-### 1)  Binary Operator
+### 2)  Binary Operator
 ### i) Arithmatic Operator
 * It is an binary operator.
 * It will takes two values/operand at a time.
@@ -300,6 +300,29 @@ class AssignOp
     }
 }
 ```
+* Ans = 10, 10
+### 2) Ternary Operator
+### i) Conditional Operator
+* It is an ternary operator.
+* It takes three values at a time.
+* It is the type of decision making statement in java.
+
+* __Syntax__ <br>
+&nbsp; conditon ? statement1 : statement2 <br>
+&nbsp; if condition is true then executes the statement1 <br>
+&nbsp; if condition is false then executes the statement2 <br>
+
+```
+class TerOp
+{
+    public static void main(String[]args)
+    {
+        System.out.println(false ? 10 : 20);
+    }
+}
+```
+* Ans = 20
+
 
 
 
