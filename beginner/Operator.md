@@ -339,7 +339,7 @@ class TerOp
 * __Que.__ Write a program to find the maximum of four numbers using conditional operator.
   
 ```
-class TerOp
+class FindMax
 {
     public static void main(String[]args)
     {
@@ -354,3 +354,18 @@ class TerOp
 ```
 * Ans = 90
 
+```
+class FindMin
+{
+    public static void main(String[]args)
+    {
+        int a = 11;
+        int b = 29;
+        int c = 30;
+        int d = 41;
+        int res = a < b && a < c && a < d ? a : b < c && b < d ? b : c < d ? c : d;
+        System.out.println(res);
+    }
+}
+```
+* Ans = 11
