@@ -285,4 +285,21 @@ class NotOperator
 * NOT is an unary operator but it comes under logical operator.
 
 ### d) Assignment Operator 
+* Assignment operators are used to assigning value to a variable. The left side operand of the assignment operator is a variable and right side operand of the assignment operator is a value.
+
+```
+class AssignOp
+{
+    public static void main(String[]args)
+    {
+        int a;
+        int b;
+        a = b = 10;
+        System.out.println(a);
+        System.out.println(b);
+    }
+}
+```
+
+
 
