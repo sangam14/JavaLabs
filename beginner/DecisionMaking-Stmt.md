@@ -24,7 +24,7 @@ if (condition)
 }
 ```
 * __Flowchart__ <br>
-![Dig8]()
+![Dig8](https://raw.githubusercontent.com/sangam14/JavaLabs/master/img/Dig8.png)
   
 
 
