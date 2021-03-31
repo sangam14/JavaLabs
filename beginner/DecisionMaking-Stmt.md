@@ -23,7 +23,7 @@ if (condition)
     statement2;
 }
 ```
-* __Flowchart__ <br>
+* __Flowchart__ <br> <br>
 ![Dig8](https://raw.githubusercontent.com/sangam14/JavaLabs/master/img/Dig8.png)
   
 
