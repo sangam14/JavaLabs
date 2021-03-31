@@ -23,6 +23,12 @@ if (condition)
     statement2;
 }
 ```
+* __Flowchart__ <br>
+![Dig8]()
+  
+
+
+
 * e.g.
 ```
 class Program1
