@@ -23,3 +23,82 @@ if (condition)
     statement2;
 }
 ```
+* e.g.
+```
+class Program1
+{
+    public static void main (String[]args)
+    {
+        System.out.println("Hi");
+        if (true)    
+        System.out.println("Hello");
+        System.out.println("My name is Sunil");
+    }
+}
+```
+* Ans = Hi, Hello, My name is Sunil
+
+```
+class Program2
+{
+    public static void main (String[]args)
+    {
+        System.out.println("Hi");
+        if (false)
+        System.out.println("Hello");
+        System.out.println("My name is Sunil");
+    }
+}
+```
+* Ans = Hi, My name is Sunil
+
+```
+class Program3
+{
+    public static void main (String[]args)
+    {
+        System.out.println("Hi");
+        if (true)
+        {
+            System.out.println("Hello");
+            System.out.println("Please Reply...");
+        }
+        System.out.println("Block")
+    }
+}
+```
+* Ans = Hi, Hello, Please Reply..
+
+```
+class Program3
+{
+    public static void main (String[]args)
+    {
+        System.out.println("Hi");
+        if (true)
+        {
+            System.out.println("Hello");
+            System.out.println("Please Reply...");
+        }
+        System.out.println("Block")
+    }
+}
+```
+* Ans = Hi, Hello, Please Reply.., Block
+
+```
+class Program4
+{
+    public static void main (String[]args)
+    {
+        System.out.println("Hi");
+        if (false)
+        {
+            System.out.println("Hello");
+            System.out.println("Please Reply...");
+        }
+        System.out.println("Block")
+    }
+}
+```
+* Ans = Hi, Block
