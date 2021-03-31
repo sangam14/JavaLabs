@@ -354,6 +354,8 @@ class FindMax
 ```
 * Ans = 90
 
+* __Que.__ Write a program to find the minimum of four numbers using conditional operator.
+
 ```
 class FindMin
 {
