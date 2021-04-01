@@ -130,7 +130,7 @@ else
 }
 ```
 * __Flowchart__ <br> <br>
-![Dig9]()
+![Dig9](https://raw.githubusercontent.com/sangam14/JavaLabs/master/img/Dig9.png)
 
 * e.g.
 ```
