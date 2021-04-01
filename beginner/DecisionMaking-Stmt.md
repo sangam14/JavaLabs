@@ -193,3 +193,26 @@ class Que1
 }
 ```
 * Ans = Pass
+
+* __Que.__ Write a program to check whether the given number even or odd.
+* Number = 20
+
+```
+class Que2
+{
+    public static void main (String[]args)
+    {
+        int num = 20;
+        if (num % 2 == 0)    
+        {
+            System.out.println("Given number is even number");
+        }
+        else
+        {
+            System.out.println("Given number is odd number");
+        }
+    }
+}
+```
+* Ans = Given number is even number
+
