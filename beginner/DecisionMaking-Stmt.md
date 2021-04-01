@@ -172,3 +172,24 @@ class Program2
 ```
 * Ans = Goa Plan, Plan Fails, No Money, Sit in Home
 
+* __Que.__ Write a program to check whether the given number is divisible by 3 & 7. If it is divisible then display pass else fail.
+* Number = 21
+
+```
+class Que1
+{
+    public static void main (String[]args)
+    {
+        int num = 21;
+        if (num % 3 == 0 && num % 7 == 0)    
+        {
+            System.out.println("Pass");
+        }
+        else
+        {
+            System.out.println("Fail");
+        }
+    }
+}
+```
+* Ans = Pass
