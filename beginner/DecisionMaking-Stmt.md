@@ -27,8 +27,6 @@ if (condition)
 ![Dig8](https://raw.githubusercontent.com/sangam14/JavaLabs/master/img/Dig8.png)
   
 
-
-
 * e.g.
 ```
 class Program1
@@ -108,3 +106,69 @@ class Program4
 }
 ```
 * Ans = Hi, Block
+
+### 1) if else
+* It is the type of decision making statement.
+* It will check the given condition first, if the condition is true then only it will execute the statements which are present in the if block and if the condition is false that time it will execute the statements present inside else block.
+* __Syntax__
+```
+if (condition)
+statement;
+else 
+statement;
+```
+```
+if (condition)
+{
+    statement1;
+    statement2;
+}
+else
+{
+    statement3;
+    statement4;
+}
+```
+* __Flowchart__ <br> <br>
+![Dig9]()
+
+* e.g.
+```
+class Program1
+{
+    public static void main (String[]args)
+    {
+        System.out.println("Hi");
+        if (true)    
+        System.out.println("Hello");
+        else
+        System.out.println("By");
+    }
+}
+```
+* Ans = Hi, Hello
+
+* e.g.
+```
+class Program2
+{
+    public static void main (String[]args)
+    {
+        System.out.println("Goa Plan");
+        if (false)    
+        {
+            System.out.println("Ask Money");
+            System.out.println("Enjoy Goa");
+            System.out.println("Come Back Home");
+        }
+        else
+        {
+            System.out.println("Plan Fails");
+            System.out.println("No Money");
+            System.out.println("Sit in Home");
+        }
+    }
+}
+```
+* Ans = Goa Plan, Plan Fails, No Money, Sit in Home
+
