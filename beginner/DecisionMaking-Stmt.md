@@ -107,7 +107,7 @@ class Program4
 ```
 * Ans = Hi, Block
 
-### 1) if else
+### 2) if else
 * It is the type of decision making statement.
 * It will check the given condition first, if the condition is true then only it will execute the statements which are present in the if block and if the condition is false that time it will execute the statements present inside else block.
 * __Syntax__
@@ -216,3 +216,4 @@ class Que2
 ```
 * Ans = Given number is even number
 
+### 2) else if ladder / if-else-if
