@@ -217,3 +217,25 @@ class Que2
 * Ans = Given number is even number
 
 ### 2) else if ladder / if-else-if
+* Whenever we have to execute group of statements which will have multiple conditions that time we have to use else if ladder/if-else-if statements.
+* __Syntax__
+
+```
+if (condition)
+{
+    statement1;
+}
+else if (condition)
+{
+    statement2;
+}
+else if (condition)
+{
+    statement3;
+}
+else 
+{
+    statement4;
+}
+```
+* __Flowchart__ <br> <br>
