@@ -330,3 +330,10 @@ public class Eg1
 }
 ```
 * Ans = Step 1, Step 2, Step 3, All True
+
+### 5) Switch 
+* It is a special decision making statement in java.
+* switch is a keyword in java.
+* Inside a switch we can pass either expression/literal, other than boolean condition.
+* The
+* __Syntax__
