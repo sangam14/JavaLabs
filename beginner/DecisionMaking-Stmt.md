@@ -297,5 +297,13 @@ else
     statement 2;
 }
 ```
+* __Flowchart__ <br> <br>
+![]()
 
+* __Que.__ Write a program   <br>
+i) If  <br>
+ii) If  <br>
+iii) If  <br>
+iv) 
+* number = 20.
 
