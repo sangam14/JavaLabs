@@ -358,4 +358,10 @@ switch (expression/literal)
                       statements;
                   }
 }
+
 ```
+* __Note__ <br>
+  * For each case we have to provide the break keyword, otherwise it will execute all statements present below the given statement.
+  * break is keyword in java.
+  * It will help to transfer the control out of the block.
+
