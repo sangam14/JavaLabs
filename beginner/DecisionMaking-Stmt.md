@@ -239,3 +239,41 @@ else
 }
 ```
 * __Flowchart__ <br> <br>
+![]()
+
+* __Que.__ Write a program to check whether the given number is <br>
+i) If number is even print "Hi" <br>
+ii) If number is divisible by 3 & 5 print "By" <br>
+iii) If number is odd & divisible by 7 print "By By" <br>
+iv) else "Good By"
+* number = 20.
+
+
+```
+class Que1
+{
+    public static void main (String[]args)
+    {
+        int n = 20;
+        if (n % 2 == 0)    
+        {
+            System.out.println("Hi");
+        }
+        else if (n % 2 == 0 && n % 5 == 0)
+        {
+            System.out.println("By");
+        }
+        else if (n % 2 != 0 && n % 7 == 0 )
+        {
+            System.out.println("By By");
+        }
+        else 
+        {
+            System.out.println("Good By");
+        }
+    }
+}
+```
+* Ans = Hi
+
+
