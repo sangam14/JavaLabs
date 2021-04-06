@@ -216,7 +216,7 @@ class Que2
 ```
 * Ans = Given number is even number
 
-### 2) else if ladder / if-else-if
+### 3) else if ladder / if-else-if
 * Whenever we have to execute group of statements which will have multiple conditions that time we have to use else if ladder/if-else-if statements.
 * __Syntax__
 
@@ -275,5 +275,27 @@ class Que1
 }
 ```
 * Ans = Hi
+
+### 4) Nested if 
+* An if condition inside an another if is called as nested if.
+* If all given condition is true then only statement1 is executed otherwise statement2 in else block will get executed.
+* __Syntax__
+
+```
+if (condition1)
+{
+   if (condition2)
+   {
+       if (condition3)
+       {
+           statement1;
+       }
+   }
+}
+else 
+{
+    statement 2;
+}
+```
 
 
