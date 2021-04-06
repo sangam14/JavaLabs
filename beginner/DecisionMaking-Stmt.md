@@ -300,15 +300,9 @@ else
 * __Flowchart__ <br> <br>
 ![]()
 
-* __Que.__ Write a program   <br>
-i) If  <br>
-ii) If  <br>
-iii) If  <br>
-iv) 
-* number = 20.
 
 ```
-class Que1
+public class Eg1
 {
     public static void main (String[]args)
     {
@@ -319,19 +313,20 @@ class Que1
             n = 10 * 2;
             if(n == 20 )
             {
-                System.out.println("Step2");
-                n = 20 + 20
+                System.out.println("Step 2");
+                n = 20 + 20;
                 if ( n == 40)
                 {
-                    System.out.println("Step3");
+                    System.out.println("Step 3");
+                    System.out.println("All True");
                 }
             }
         }
         else 
         {
-            System.out.println("All Fails");
+            System.out.println("All False");
         }
     }
 }
 ```
-* Ans = Hi
+* Ans = Step 1, Step 2, Step 3, All True
