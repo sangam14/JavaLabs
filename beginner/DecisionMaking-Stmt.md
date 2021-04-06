@@ -302,7 +302,7 @@ else
 
 
 ```
-public class Eg1
+class Eg1
 {
     public static void main (String[]args)
     {
@@ -365,3 +365,27 @@ switch (expression/literal)
   * break is keyword in java.
   * It will help to transfer the control out of the block.
 
+* __Que.__ Write a program to check whether the given number is even/odd using switch. <br>
+* number = 60
+
+```
+class Que1
+{
+    public static void main (String[]args)
+    {
+        int a = 60;
+        switch (a % 2)
+        case 0 :
+                {
+                    System.out.println("even");
+                    break;
+                }
+        case 1 :
+                {
+                    System.out.println("odd");
+                    break;
+                }
+    }
+}
+```
+* Ans = even
