@@ -335,5 +335,27 @@ public class Eg1
 * It is a special decision making statement in java.
 * switch is a keyword in java.
 * Inside a switch we can pass either expression/literal, other than boolean condition.
-* The
+* The result of the expression is compared with the values of each case.
+* If there is a match, the associated block of code is executed.
+* The break and default keywords are optional.
 * __Syntax__
+
+```
+switch (expression/literal)
+{
+    case option 1 :
+                  {
+                      statement1;
+                      break;
+                  }
+    case option 2 :
+                  {
+                      statement1;
+                      break;
+                  }
+         default  :
+                  {
+                      statements;
+                  }
+}
+```
