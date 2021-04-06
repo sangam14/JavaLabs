@@ -307,3 +307,31 @@ iii) If  <br>
 iv) 
 * number = 20.
 
+```
+class Que1
+{
+    public static void main (String[]args)
+    {
+        int n = 10;
+        if (n % 2 == 0)    
+        {
+            System.out.println("Step 1");
+            n = 10 * 2;
+            if(n == 20 )
+            {
+                System.out.println("Step2");
+                n = 20 + 20
+                if ( n == 40)
+                {
+                    System.out.println("Step3");
+                }
+            }
+        }
+        else 
+        {
+            System.out.println("All Fails");
+        }
+    }
+}
+```
+* Ans = Hi
