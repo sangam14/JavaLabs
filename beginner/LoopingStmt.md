@@ -8,3 +8,19 @@
 ### 1) for loop 
 * It is the type of looping statements which will have fix initial and final point to execute the given statements multiple times.
 * __Syntax__
+![ForSyntax]()
+
+* __Que__ Print "*" four times.
+
+```
+class Que1
+{
+    public static void main(String[]args)
+    {
+        for (int i = 0; i < 3; i++)
+        {
+            System.out.println("*");
+        }
+    }
+}
+```
