@@ -7,7 +7,7 @@
 
 ### 1) for loop 
 * It is the type of looping statements which will have fix initial and final point to execute the given statements multiple times.
-* __Syntax__
+* __Syntax__ <br> <br> <br>
 ![ForSyntax](https://raw.githubusercontent.com/sangam14/JavaLabs/master/img/forSyntax.png)
 
 * __Que1__ Print "*" four times.
