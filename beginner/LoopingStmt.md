@@ -59,4 +59,26 @@ class Que3
 ```
 * Ans = 55
 
+* __Que4__ Write the program to find summation of all even numbers between 20 to 10 using for loop.
+
+```
+class Que4
+{
+    public static void main(String[]args)
+    {
+        int sum = 0;
+        for (int i = 20; i >= 10; i--)
+        {
+            if(i % 2 == 0 )
+            {
+                sum = sum + i;
+            }
+        }
+        System.out.println(sum);
+    }
+}
+```
+* Ans = 90
+
+
 
