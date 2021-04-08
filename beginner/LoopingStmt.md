@@ -10,7 +10,7 @@
 * __Syntax__
 ![ForSyntax]()
 
-* __Que__ Print "*" four times.
+* __Que1__ Print "*" four times.
 
 ```
 class Que1
@@ -24,10 +24,10 @@ class Que1
     }
 }
 ```
-* __Que__ Write the program to print even number between 100 to 80 using for loop.
+* __Que2__ Write the program to print even number between 100 to 80 using for loop.
 
 ```
-class Que1
+class Que2
 {
     public static void main(String[]args)
     {
@@ -41,4 +41,22 @@ class Que1
     }
 }
 ```
+* __Que3__ Write the program to find summation of first ten numbers starting from 1.
+
+```
+class Que3
+{
+    public static void main(String[]args)
+    {
+        int sum = 0;
+        for (int i = 1; i <= 10; i++)
+        {
+            sum = sum + i;
+        }
+        System.out.println(sum);
+    }
+}
+```
+* Ans = 55
+
 
