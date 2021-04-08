@@ -80,5 +80,7 @@ class Que4
 ```
 * Ans = 90
 
+### 2) while loop
+
 
 
