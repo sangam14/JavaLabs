@@ -123,6 +123,23 @@ class Que4
  ``` 
  * Ans = <br> * <br> * <br> * <br> * <br> * <br> 
 
+* __Que1__ Write a program to print the numbers in reverse order from 20 to 10 using while loop
+
+```
+class Que2
+{
+    public static void main(String[]args)
+    {
+        int i = 20;
+        while (i >= 10)
+        {
+            System.out.print(i +" ");
+            i--;
+        }
+    }
+}
+```
+* Ans = 20 19 18 17 16 15 14 13 12 11 10
 
 
 
