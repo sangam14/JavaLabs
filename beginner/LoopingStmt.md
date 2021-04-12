@@ -95,7 +95,7 @@ class Que4
 * __eg.__
   
  ```
- class P1
+ class Program 1
  {
      public static void main (String [] args)
      {
@@ -109,7 +109,7 @@ class Que4
  * Ans = Unreachable Statement (Compile Time Error)
 
 ```
- class P1
+ class Program2
  {
      public static void main (String [] args)
      {
