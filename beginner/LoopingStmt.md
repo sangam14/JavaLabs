@@ -148,16 +148,17 @@ class Que2
 {
     public static void main(String[]args)
     {
-        int i = 20;
-        while (i >= 10)
+        int i = 25;
+        while (i <= 50)
         {
+            if (i % 2 == 0)
             System.out.print(i +" ");
-            i--;
+            i++;
         }
     }
 }
 ```
-* Ans = 20 19 18 17 16 15 14 13 12 11 10
+* Ans = 26 28 30 32 34 36 38 40 42 44 46 48 50 
 
 
 
