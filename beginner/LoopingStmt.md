@@ -24,6 +24,7 @@ class Que1
     }
 }
 ```
+* Ans = <br> * <br> * <br> * <br> * <br> * <br>
 * __Que2__ Write the program to print even number between 100 to 80 using for loop.
 
 ```
@@ -31,7 +32,7 @@ class Que2
 {
     public static void main(String[]args)
     {
-        for (int i = 100; i >= 800; i--)
+        for (int i = 100; i >= 80; i--)
         {
             if (i % 2 == 0)
             {
@@ -41,6 +42,8 @@ class Que2
     }
 }
 ```
+* Ans = <br> 100 <br>98 <br>96 <br>94 <br>92<br> 90 <br>88<br> 86<br> 84<br> 82 <br>80
+
 * __Que3__ Write the program to find summation of first ten numbers starting from 1.
 
 ```
@@ -118,7 +121,7 @@ class Que4
      }
  }
  ``` 
- * Ans = * <br>
+ * Ans = <br> * <br> * <br> * <br> * <br> * <br> 
 
 
 
