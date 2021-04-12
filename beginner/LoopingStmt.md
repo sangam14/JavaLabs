@@ -81,6 +81,46 @@ class Que4
 * Ans = 90
 
 ### 2) while loop
-------
+* It will execute the group of statements multiple times until condition is true.
+* while loop first check the condition if it is true then it will execute the statements.
+* __Syntax__ <br> <br> <br>
+![WhileSyntax]()
+
+* __flowchart__ <br>
+![WhileFlowchart]()
+
+* __eg.__
+  
+ ```
+ class P1
+ {
+     public static void main (String [] args)
+     {
+         while (false)
+         {
+             System.out.println("Hello World")
+         }
+     }
+ }
+ ``` 
+ * Ans = Unreachable Statement (Compile Time Error)
+
+```
+ class P1
+ {
+     public static void main (String [] args)
+     {
+         int i =0;
+         while (i < 5)
+         {
+             System.out.println("*")
+         }
+     }
+ }
+ ``` 
+ * Ans = * <br>
+
+
+
 
 
