@@ -141,6 +141,23 @@ class Que2
 ```
 * Ans = 20 19 18 17 16 15 14 13 12 11 10
 
+* __Que1__ Write a program to print all the even numbers between 25 to 50 using while loop
+
+```
+class Que2
+{
+    public static void main(String[]args)
+    {
+        int i = 20;
+        while (i >= 10)
+        {
+            System.out.print(i +" ");
+            i--;
+        }
+    }
+}
+```
+* Ans = 20 19 18 17 16 15 14 13 12 11 10
 
 
 
