@@ -181,3 +181,16 @@ class Que3
 * __Note__ <br>
 &nbsp; Increment/decrement always gives after completing decision making block.
 
+### 3)do while loop
+* It is used to execute group of statements multiple times depending on condition.
+* do while loop executes atlest once even though condition is false.
+* do will first executes statements and then check the condition.
+  
+* __Syntax__ <br> <br> <br>
+![DoWhileSyntax]()
+
+* __Note__ <br>
+&nbsp; In do while loop the while condition should be ended with semicolon (;). <br> 
+&nbsp; In do while even if condition either true/false, the statement gets execute atlest onces.
+
+  
