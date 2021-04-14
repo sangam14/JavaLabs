@@ -230,13 +230,11 @@ class Que1
 
 * __Que2__ Write the difference between whie loop and do while loop.
 
-| No |                           while loop                            |                             do while loop                            |
-|----|:---------------------------------------------------------------:|:--------------------------------------------------------------------:|
+| No | while loop                                                      | do while loop                                                        |
+|----|-----------------------------------------------------------------|----------------------------------------------------------------------|
 | 1. | Condition is tested at the beginning of the loop.               | Condition is tested at the end of the loop.                          |
 | 2. | If condition is true then only statements will executed.        | Even condition is true/false statements will executed at least once. |
 | 3. | In while loop condition should not be ended with (;) semicolon. | In do while loop condition should be ended with (;) semicolon.       |
-
-
 
 
   
