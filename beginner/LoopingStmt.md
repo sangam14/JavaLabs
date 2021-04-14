@@ -192,10 +192,23 @@ class Que3
 * __Note__ <br>
 &nbsp; In do while loop the while condition should be ended with semicolon (;). <br> 
 &nbsp; In do while even if condition either true/false, the statement gets execute atlest onces.
-
- 
-
-
+* eg.1
+  
+```
+class Example1
+{
+    public static void main(String[]args)
+    {
+        int a = 0;
+        do
+        {
+            System.out.print(a++);
+        }
+        while (a > 10);
+    }
+}
+```
+* Ans = 0
 * __Que1__ Write a program to print all the numbers between 0 to 10 using do while loop.
 
 ```
