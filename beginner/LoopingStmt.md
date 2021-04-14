@@ -126,7 +126,7 @@ class Que4
 * __Que1__ Write a program to print the numbers in reverse order from 20 to 10 using while loop
 
 ```
-class Que2
+class Que1
 {
     public static void main(String[]args)
     {
@@ -141,7 +141,7 @@ class Que2
 ```
 * Ans = 20 19 18 17 16 15 14 13 12 11 10
 
-* __Que1__ Write a program to print all the even numbers between 25 to 50 using while loop
+* __Que2__ Write a program to print all the even numbers between 25 to 50 using while loop
 
 ```
 class Que2
@@ -160,5 +160,24 @@ class Que2
 ```
 * Ans = 26 28 30 32 34 36 38 40 42 44 46 48 50 
 
+* __Que3__ Write a program to print all the numbers which are divisible by 3 & 7 between 100 to 50
 
+```
+class Que3
+{
+    public static void main(String[]args)
+    {
+        int i = 100;
+        while (i >= 50)
+        {
+            if (i % 3 == 0 && i % 7 == 0)
+            System.out.print(i +" ");
+            i--;
+        }
+    }
+}
+```
+* Ans = 84 63
+* __Note__ <br>
+&nbsp; Increment/decrement always gives after completing decision making block.
 
