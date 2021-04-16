@@ -70,4 +70,7 @@ class Example3
 ```
 * Ans = 123456788 <br>
 
+### Rules for break statement 
+1) break statement should be always at the end of the block.
+2) We can not used break in between the block. It will shows compile time error (unreachable statement)
 
