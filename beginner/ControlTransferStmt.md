@@ -49,4 +49,25 @@ class Example2
 ```
 * Ans = 0 <br> 1 <br> 2 <br> 3 <br> 4 <br>
 
+```
+class Example3
+{
+    public static void main(String[]args)
+    {
+        int a = 1;
+        while (a <= 10)
+        {
+            System.out.print(a);
+            if (a == 8)
+            {
+                System.out.println(a);
+                break;
+            }
+            a++;
+        }
+    }
+}
+```
+* Ans = 123456788 <br>
+
 
