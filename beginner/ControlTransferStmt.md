@@ -26,4 +26,27 @@ class Example1
 }
 ```
 * Ans = *
-  
+
+```
+class Example2
+{
+    public static void main(String[]args)
+    {
+        int a = 0;
+        while (a < 7)
+        {
+            System.out.println(a);
+            if (a == 3)
+            {
+                a++;
+                System.out.println(a);
+                break;
+            }
+            a++;
+        }
+    }
+}
+```
+* Ans = 0 <br> 1 <br> 2 <br> 3 <br> 4 <br>
+
+
