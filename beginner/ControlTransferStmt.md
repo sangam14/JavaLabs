@@ -8,7 +8,7 @@
 * It is a control transfer statement.
 * It is used to transfer the control of execution out of the block.
 * It is used to terminate execution flow of looping statement.
-* We can not used break keyword within only decision making statement.It must be inside looping statements.
+* We can not used break keyword within only decision making statement.It must be inside looping statements, otherwise it will compile time error.
 
 ```
 class Example1
@@ -74,3 +74,24 @@ class Example3
 1) break statement should be always at the end of the block.
 2) We can not used break in between the block. It will shows compile time error (unreachable statement)
 
+```
+class Example4
+{
+    public static void main(String[]args)
+    {
+        int a = 0;
+        while (a < 7)
+        {
+            System.out.print(a);
+            if (a == 3)
+            {
+                System.out.println(a);
+                break;
+                a++;
+            }
+            a++;
+        }
+    }
+}
+```
+* Ans = Compile Time Error
