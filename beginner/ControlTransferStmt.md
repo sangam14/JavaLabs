@@ -9,3 +9,21 @@
 * It is used to transfer the control of execution out of the block.
 * It is used to terminate execution flow of looping statement.
 * We can not used break keyword within only decision making statement.It must be inside looping statements.
+
+```
+class Example1
+{
+    public static void main(String[]args)
+    {
+        int a = 0;
+        while (a < 5)
+        {
+            System.out.println("*");
+            a++;
+            break;
+        }
+    }
+}
+```
+* Ans = *
+  
