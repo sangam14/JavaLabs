@@ -25,7 +25,7 @@ class Example1
     }
 }
 ```
-* Ans = *
+* Ans =  *
 
 ```
 class Example2
