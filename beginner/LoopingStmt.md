@@ -87,7 +87,13 @@ class Que4
 * It will execute the group of statements multiple times until condition is true.
 * while loop first check the condition if it is true then it will execute the statements.
 * __Syntax__ <br> <br> <br>
-![WhileSyntax]()
+```
+while (condition)
+{
+    statements;
+    update;
+}
+```
 
 * __flowchart__ <br>
 ![WhileFlowchart](https://raw.githubusercontent.com/sangam14/JavaLabs/master/img/WhileSyntax.png)
