@@ -86,7 +86,7 @@ class Que4
 ### 2) while loop
 * It will execute the group of statements multiple times until condition is true.
 * while loop first check the condition if it is true then it will execute the statements.
-* __Syntax__ <br> <br> <br>
+* __Syntax__ <br> 
 ```
 while (condition)
 {
