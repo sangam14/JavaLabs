@@ -90,7 +90,7 @@ class Que4
 ![WhileSyntax]()
 
 * __flowchart__ <br>
-![WhileFlowchart]()
+![WhileFlowchart](https://raw.githubusercontent.com/sangam14/JavaLabs/master/img/WhileSyntax.png)
 
 * __eg.__
   
