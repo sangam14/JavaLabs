@@ -95,3 +95,9 @@ class Example4
 }
 ```
 * Ans = Compile Time Error
+
+### 1) continue
+* It is keyword in java.
+* continue helps to transfer the control of execution beginning of the condition.
+* It is used to skip the execution of looping statement without terminating it.
+* continue keyword must be written within looping statement. We can not written continue keyword only within decision making statement.
