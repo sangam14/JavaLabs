@@ -101,3 +101,21 @@ class Example4
 * continue helps to transfer the control of execution beginning of the condition.
 * It is used to skip the execution of looping statement without terminating it.
 * continue keyword must be written within looping statement. We can not written continue keyword only within decision making statement.
+
+```
+class Continue1
+{
+    public static void main(String[]args)
+    {
+        for(int i = 1; i <= 10; i++)
+        {
+            if(i == 5)
+            {
+                continue;
+            }
+            System.out.print(i+" ");
+        }
+    }
+}
+```
+* Ans = 1 2 3 4 6 7 8 9 10 
