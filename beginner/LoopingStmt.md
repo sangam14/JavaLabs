@@ -192,8 +192,16 @@ class Que3
 * do while loop executes atlest once even though condition is false.
 * do will first executes statements and then check the condition.
   
-* __Syntax__ <br> <br> <br>
-![DoWhileSyntax]()
+* __Syntax__ <br>
+
+```
+do
+{
+    statements;
+    update;
+}
+while(condition);
+```
 
 * __Note__ <br>
 &nbsp; In do while loop the while condition should be ended with semicolon (;). <br> 
