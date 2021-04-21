@@ -96,7 +96,7 @@ class Example4
 ```
 * Ans = Compile Time Error
 
-### 1) continue
+### 2) continue
 * It is keyword in java.
 * continue helps to transfer the control of execution beginning of the condition.
 * It is used to skip the execution of looping statement without terminating it.
