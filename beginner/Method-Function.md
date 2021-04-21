@@ -22,5 +22,14 @@
 __1) Primitive datatype values__
 * byte,short,int,long,float,double,char,boolean.
 
+__2) Non-Primitive datatype values__
+* String, void
+__void__
+* void is a non-primitive datatype.
+* void is a keyword in java.
+* void means nothing.
+* void does not return any value.
+
+### Method Convension 
 
 
