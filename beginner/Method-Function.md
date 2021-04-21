@@ -4,16 +4,15 @@
 ### Method Header
 ![MethodHeader]()
 
-* Method Header consist of 
+* Method Header consist of : <br>
 1) Modifier <br>
 2) Return type <br>
 3) Method name <br>
 4) Formal arguments (datatype variable_name) <br>
 
-* Method Header consist of
+* Method Header consist of : <br>
 1) Method name <br>
 2) formal arguments (datatype variable_name) <br>
-
 * We can have more than one method inside the class block.
 
 ### Return Type
