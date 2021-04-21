@@ -17,9 +17,9 @@
 
 ### Return Type
 * It is simply indicate that what kind of values you return.
-* We can return two datatype of values.
+* We can return two datatype of values. <br>
 __1) Primitive datatype values__
-* byte,short,int,long,float,double,char,boolean.
+* byte,short,int,long,float,double,char,boolean. 
 
 __2) Non-Primitive datatype values__
 * String, void
