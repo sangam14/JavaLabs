@@ -60,4 +60,18 @@ class Add
 ```
 * Ans = 30 <br> 20
 
+### Method Calling Statement 
+![MethodCallStmt]()
+
+* It is the control trasfer statement.
+* It tries to transfer the control from calling method (main() method) to called method (another method).
+
+* __Calling Method__
+* The method which tries to call another method is called as calling method.
+
+* __Called Method__
+* The method which is under the execution is called as called meth
+od.
+
+
 
