@@ -40,6 +40,9 @@ __void__
 * We can initillize the variable from the main/other method by calling particularmethod with the help of method name.
 
 ### Note 
+1) There is only one main() method in java.
+2) Methods (other than main() method) gets executed only when it is called.
+
 
 
 
