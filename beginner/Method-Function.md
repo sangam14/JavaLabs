@@ -33,5 +33,14 @@ __void__
 1) If the method name consist of single word it should be in terms of lower case. e.g. add()
 2) If the method name consist of more than one word (multiword) then the first letter of the second word it should be in terms of upper case. e.g. addSum()
 
+### Formal Arguments 
+* Formal arguments are the decleration of variables inside the method header.
+* The variables behaves like local veriable.
+* The variable did not to be initillized.
+* We can initillize the variable from the main/other method by calling particularmethod with the help of method name.
+
+### Note 
+
+
 
 
