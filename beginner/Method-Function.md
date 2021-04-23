@@ -43,7 +43,21 @@ __void__
 1) There is only one main() method in java.
 2) Methods (other than main() method) gets executed only when it is called.
 
-
-
+```
+class Add
+{
+    public static void add (int a, int b)
+    {
+        int res = a + b;
+        System.out.println(res);
+    }
+    public static void main (String[] args)
+    {
+        add(10,20);
+        add(10,10);
+    }
+}
+```
+* Ans = 30 <br> 20
 
 
