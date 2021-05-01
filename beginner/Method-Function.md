@@ -80,7 +80,7 @@ class EvenFor
 {
     public static void even (int a, int b)
     {
-        for (int i = 0; i <= 50; i++)
+        for (int i = a; i <= b; i++)
         {
             if (i % 2 == 0)
             {
@@ -136,6 +136,30 @@ class MaxThree
 ```
 * __Ans :__  770
 
+* __Que3.__ Write a program to find summation of all even numbers between 0 to 20 using method.
+
+```
+class class SumEvenFor
+{
+    public static void sumEven (int a, int b)
+    {
+        int sum = 0;
+        for (int i = a; i <= b; i++)
+        { 
+            if (i % 2 == 0)
+            {
+               sum = sum + i;
+            }
+        }
+        System.out.println(sum);
+    }
+    public static void main(String[] args)
+    {
+        sumEven(0,20);
+    }
+}
+```
+* __Ans :__  110
 
 
 
