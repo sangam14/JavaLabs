@@ -161,5 +161,29 @@ class class SumEvenFor
 ```
 * __Ans :__  110
 
+```
+class SumEvenFor
+{
+    public static void sumEven (int a, int b)
+    {
+        int sum = 0;
+        while (a <= b)
+        { 
+            if (a % 2 == 0)
+            {
+               sum = sum + a;
+            }
+            a++;
+        }
+        System.out.println(sum);
+    }
+    public static void main(String[] args)
+    {
+        sumEven(0,20);
+    }
+}
+```
+* __Ans :__  110
+
 
 
