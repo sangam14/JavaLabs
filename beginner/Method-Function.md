@@ -20,7 +20,6 @@
 * We can return two datatype of values. <br>
 __1) Primitive datatype values__
 * byte,short,int,long,float,double,char,boolean. 
-
 __2) Non-Primitive datatype values__
 * String, void
 __void__
