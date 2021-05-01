@@ -19,7 +19,8 @@
 * It is simply indicate that what kind of values you return.
 * We can return two datatype of values. <br>
 __1) Primitive datatype values__
-  * byte,short,int,long,float,double,char,boolean.  <br>
+  * byte,short,int,long,float,double,char,boolean. 
+  
 __2) Non-Primitive datatype values__
   * String, void
 __void__
