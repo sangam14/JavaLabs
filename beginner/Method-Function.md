@@ -73,5 +73,50 @@ class Add
 * The method which is under the execution is called as called meth
 od.
 
+* __Que1.__ Write a program to print all even numbers between 0 to 50 using method.
+
+```
+class EvenFor
+{
+    public static void even (int a, int b)
+    {
+        for (int i = 0; i <= 50; i++)
+        {
+            if (i % 2 == 0)
+            {
+                System.out.println(i+ " ");
+            }
+        }
+    }
+    public static void main(String[] args)
+    {
+        even(0,50);
+    }
+}
+```
+* __Ans :__ 0 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50 
+
+```
+class EvenWhile
+{
+    public static void even (int a, int b)
+    {
+        while (a <= b)
+        {
+            if (a % 2 == 0)
+            {
+                System.out.print(a+ " ");
+            }
+            a++;
+        }
+    }
+    public static void main(String[] args)
+    {
+        even(0,50);
+    }
+}
+```
+* __Ans :__ 0 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50 
+
 
 
