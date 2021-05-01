@@ -118,5 +118,24 @@ class EvenWhile
 ```
 * __Ans :__ 0 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50 
 
+* __Que2.__ Write a program to find maximum of three numbers using method.
+
+```
+class MaxThree
+{
+    public static void maxThree (int a, int b, int c)
+    {
+        int res = a > b && a > c ? a : b > c ? b : c;
+        System.out.println(res);
+    }
+    public static void main(String[] args)
+    {
+        maxThree(370,100,770);
+    }
+}
+```
+* __Ans :__  770
+
+
 
 
