@@ -163,7 +163,7 @@ class class SumEvenFor
 * __Ans :__  110
 
 ```
-class SumEvenFor
+class SumEvenWhile
 {
     public static void sumEven (int a, int b)
     {
