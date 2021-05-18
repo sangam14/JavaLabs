@@ -186,5 +186,7 @@ class SumEvenWhile
 ```
 * __Ans :__  110
 
+### Return Type
+1. 
 
 
