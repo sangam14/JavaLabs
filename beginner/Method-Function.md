@@ -188,8 +188,8 @@ class SumEvenWhile
 
 ### Return Type
 1. The process of transfering the control from called method to calling method is called as return type.
-2. We can return two data type of values.
-   i) Primitive Datatype
+2. We can return two data type of values. <br>
+   i) Primitive Datatype <br>
    ii) Non-Primitive Datatype
 
 __Note :__ <br>
