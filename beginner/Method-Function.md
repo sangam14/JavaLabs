@@ -311,3 +311,40 @@ class SumDivWhile
 }
 ```
 * __Ans :__ 147
+
+**Note :**
+* If there is any return type other than void then return statement is mandatory.
+* For void return statement is not mandatory.
+
+### Recursive Method :
+* A method calling itself is called as recursive method.
+```
+class RecMethod
+{
+    public static void cat()
+    {
+        System.out.println("meow...meow...");
+        cat();
+    }    
+    public static void main(String[]args)
+    {
+        System.out.println("Main Begin");
+        cat();
+        System.out.println("Main End");
+    }
+}
+```
+* __Ans :__ <br>
+Main Begin <br>
+meow...meow... <br>
+    . <br>
+    . <br>
+    . <br>
+infinite loop <br>
+    . <br>
+stop execution of program
+
+* In above program the cat() method is been called itself is called as recursive invocation.
+* It generates an infinite loop for method.
+* In order to stop infinite loop we need to pass the base condition.
+
