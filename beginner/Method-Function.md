@@ -195,5 +195,26 @@ class SumEvenWhile
 __Note :__ <br>
 * By using return type we can reuse called method result into calling statement.
 
+```
+class class Money
+{
+    public static int giveLoan (int money)
+    {
+        System.out.println(money + "to build the bussiness");
+        return money;
+    }
+    public static void main(String[] args)
+    {
+        int money = giveLoan(10000);
+        int totalMoney = money + (money*10/100);
+        System.out.println(giveLoan(20000));
+        System.out.println("return total amount of money "+totalMoney);
+    }
+}
+```
+* __Ans :__  10000to build the bussiness <br>
+20000to build the bussiness <br>
+20000 <br>
+return total amount of money 11000 <br>
 
 
