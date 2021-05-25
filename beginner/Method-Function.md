@@ -196,7 +196,7 @@ __Note :__ <br>
 * By using return type we can reuse called method result into calling statement.
 
 ```
-class class Money
+class Money
 {
     public static int giveLoan (int money)
     {
@@ -216,5 +216,53 @@ class class Money
 20000to build the bussiness <br>
 20000 <br>
 return total amount of money 11000 <br>
+
+```
+class MultiMethod
+{
+    public static void vidya(int a)
+    {
+        System.out.println(sanket(12.15));
+        return;
+    }
+    public static boolean sanket(double b)
+    {
+        System.out.println(nidhi('a'));
+        return true;
+    }
+    public static int nidhi(char ch)
+    {
+        System.out.println(ch);
+        return 10;
+    }
+    public static void main(String[]args)
+    {
+        vidya(10);
+    }
+}
+```
+* __Ans :__ <br>
+a <br>
+10 <br>
+true
+
+* __Que1.__ Write a program to find maximum of three numbers and return the maximum value.
+* Numbers = 30,42,80
+```
+class ThreeMaxR
+{
+    public static int max(int a, int b, int c)
+    {
+        int res = a > b && a > c ? a : b > c ? b : c;
+        return res;
+    }
+    public static void main(String[]args)
+    {
+        System.out.println(max(30,42,80));
+    }
+}
+```
+* __Ans :__ 80
+
 
 
