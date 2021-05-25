@@ -348,3 +348,59 @@ stop execution of program
 * It generates an infinite loop for method.
 * In order to stop infinite loop we need to pass the base condition.
 
+* __Que1.__ Write a program to print all the even numbers between 0 to 6 using recursive method or without using looping statement.
+
+```
+class EvenRec
+{
+    public static void even(int a)
+    {
+        if(a == 7)
+        {
+            return;
+        }
+        if(a % 2 == 0)
+        {
+            System.out.println(a);
+        }
+        even(++a);
+    }
+    public static void main(String[]args)
+    {
+        System.out.println("Main Begin");
+        even(0);
+        System.out.println("Main End");
+    }
+}
+```
+* __Ans :__ <br>
+Main Begin <br>
+0 <br>
+2 <br>
+4 <br>
+6 <br>
+Main End
+
+* __Que2.__ Write a program to print product of first five numbers using recursive method. OR Write a program to print factorial of number five using recursive method. 
+
+```
+class Product
+{
+    public static void product(int a, int b)
+    {
+        if(a == 0)
+        {
+            System.out.println(b);
+            return;
+        }
+        int pro = b * a;
+        product(--a, b = pro);
+        
+    }
+    public static void main(String[]args)
+    {
+        product(5,1);
+    }
+}
+```
+* __Ans :__ 120
