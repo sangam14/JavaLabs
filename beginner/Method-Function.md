@@ -212,7 +212,7 @@ class Money
     }
 }
 ```
-* __Ans :__  10000to build the bussiness <br>
+* __Ans :__ <br> 10000to build the bussiness <br>
 20000to build the bussiness <br>
 20000 <br>
 return total amount of money 11000 <br>
@@ -264,5 +264,50 @@ class ThreeMaxR
 ```
 * __Ans :__ 80
 
+* __Que2.__ Write a program to perform summation of all the numbers between 100 to 50 which are divisible by 3 & 7 and return the sum.
+```
+class SumDivFor
+{
+    public static int sumDiv(int a, int b)
+    {
+        int sum = 0;
+        for(int i = a; i >= 50; i--)
+        {
+            if(i % 3 == 0 && i % 7 == 0)
+            {
+                sum = sum + i;
+            }
+        }
+        return sum;
+    }
+    public static void main(String[]args)
+    {
+        System.out.println(sumDiv(100,50));
+    }
+}
+```
+* __Ans :__ 147
 
-
+```
+class SumDivWhile
+{
+    public static int sumDiv(int a, int b)
+    {
+        int sum = 0;
+        while(a >= b)
+        {
+            if(a % 3 == 0 && a % 7 == 0)
+            {
+                sum = sum + a;
+            }
+            a--;
+        }
+        return sum;
+    }
+    public static void main(String[]args)
+    {
+        System.out.println(sumDiv(100,50));
+    }
+}
+```
+* __Ans :__ 147
