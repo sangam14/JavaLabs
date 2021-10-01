@@ -163,7 +163,7 @@ class class SumEvenFor
 * __Ans :__  110
 
 ```
-class SumEvenFor
+class SumEvenWhile
 {
     public static void sumEven (int a, int b)
     {
@@ -186,5 +186,221 @@ class SumEvenFor
 ```
 * __Ans :__  110
 
+### Return Type
+1. The process of transfering the control from called method to calling method is called as return type.
+2. We can return two data type of values. <br>
+   i) Primitive Datatype <br>
+   ii) Non-Primitive Datatype
 
+__Note :__ <br>
+* By using return type we can reuse called method result into calling statement.
 
+```
+class Money
+{
+    public static int giveLoan (int money)
+    {
+        System.out.println(money + "to build the bussiness");
+        return money;
+    }
+    public static void main(String[] args)
+    {
+        int money = giveLoan(10000);
+        int totalMoney = money + (money*10/100);
+        System.out.println(giveLoan(20000));
+        System.out.println("return total amount of money "+totalMoney);
+    }
+}
+```
+* __Ans :__ <br> 10000to build the bussiness <br>
+20000to build the bussiness <br>
+20000 <br>
+return total amount of money 11000 <br>
+
+```
+class MultiMethod
+{
+    public static void vidya(int a)
+    {
+        System.out.println(sanket(12.15));
+        return;
+    }
+    public static boolean sanket(double b)
+    {
+        System.out.println(nidhi('a'));
+        return true;
+    }
+    public static int nidhi(char ch)
+    {
+        System.out.println(ch);
+        return 10;
+    }
+    public static void main(String[]args)
+    {
+        vidya(10);
+    }
+}
+```
+* __Ans :__ <br>
+a <br>
+10 <br>
+true
+
+* __Que1.__ Write a program to find maximum of three numbers and return the maximum value.
+* Numbers = 30,42,80
+```
+class ThreeMaxR
+{
+    public static int max(int a, int b, int c)
+    {
+        int res = a > b && a > c ? a : b > c ? b : c;
+        return res;
+    }
+    public static void main(String[]args)
+    {
+        System.out.println(max(30,42,80));
+    }
+}
+```
+* __Ans :__ 80
+
+* __Que2.__ Write a program to perform summation of all the numbers between 100 to 50 which are divisible by 3 & 7 and return the sum.
+```
+class SumDivFor
+{
+    public static int sumDiv(int a, int b)
+    {
+        int sum = 0;
+        for(int i = a; i >= 50; i--)
+        {
+            if(i % 3 == 0 && i % 7 == 0)
+            {
+                sum = sum + i;
+            }
+        }
+        return sum;
+    }
+    public static void main(String[]args)
+    {
+        System.out.println(sumDiv(100,50));
+    }
+}
+```
+* __Ans :__ 147
+
+```
+class SumDivWhile
+{
+    public static int sumDiv(int a, int b)
+    {
+        int sum = 0;
+        while(a >= b)
+        {
+            if(a % 3 == 0 && a % 7 == 0)
+            {
+                sum = sum + a;
+            }
+            a--;
+        }
+        return sum;
+    }
+    public static void main(String[]args)
+    {
+        System.out.println(sumDiv(100,50));
+    }
+}
+```
+* __Ans :__ 147
+
+**Note :**
+* If there is any return type other than void then return statement is mandatory.
+* For void return statement is not mandatory.
+
+### Recursive Method :
+* A method calling itself is called as recursive method.
+```
+class RecMethod
+{
+    public static void cat()
+    {
+        System.out.println("meow...meow...");
+        cat();
+    }    
+    public static void main(String[]args)
+    {
+        System.out.println("Main Begin");
+        cat();
+        System.out.println("Main End");
+    }
+}
+```
+* __Ans :__ <br>
+Main Begin <br>
+meow...meow... <br>
+    . <br>
+    . <br>
+    . <br>
+infinite loop <br>
+    . <br>
+stop execution of program
+
+* In above program the cat() method is been called itself is called as recursive invocation.
+* It generates an infinite loop for method.
+* In order to stop infinite loop we need to pass the base condition.
+
+* __Que1.__ Write a program to print all the even numbers between 0 to 6 using recursive method or without using looping statement.
+
+```
+class EvenRec
+{
+    public static void even(int a)
+    {
+        if(a == 7)
+        {
+            return;
+        }
+        if(a % 2 == 0)
+        {
+            System.out.println(a);
+        }
+        even(++a);
+    }
+    public static void main(String[]args)
+    {
+        System.out.println("Main Begin");
+        even(0);
+        System.out.println("Main End");
+    }
+}
+```
+* __Ans :__ <br>
+Main Begin <br>
+0 <br>
+2 <br>
+4 <br>
+6 <br>
+Main End
+
+* __Que2.__ Write a program to print product of first five numbers using recursive method. OR Write a program to print factorial of number five using recursive method. 
+
+```
+class Product
+{
+    public static void product(int a, int b)
+    {
+        if(a == 0)
+        {
+            System.out.println(b);
+            return;
+        }
+        int pro = b * a;
+        product(--a, b = pro);
+        
+    }
+    public static void main(String[]args)
+    {
+        product(5,1);
+    }
+}
+```
+* __Ans :__ 120
